@@ -1,1 +1,1 @@
-Uma Lista de Tarefas com os dados persitentes no local storage.
+Repositório criado com o objetivo de armazenar os projetos que eu venho desenvolvendo na linguagem Javascript.
