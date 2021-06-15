@@ -1,1 +1,1 @@
-Repositório criado para armazenar meus projetos pessoais!
+Portfólio de Projetos JavaScript e tecnologias baseadas na linguagem.
