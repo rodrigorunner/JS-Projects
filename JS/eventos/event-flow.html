@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 6: Events - Event Bubbling and Capturing</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      #page {float:left; margin-left: 30px; width: 400px;}
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1>List King</h1>
+      <h2>Bubble</h2>
+      <ul id="list">
+        <li id="item"><a id="link">Click Here</a></li>
+      </ul>
+    </div>
+
+    <div class="page">
+      <h1>List King</h1>
+      <h2>Capture</h2>
+      <ul id="list2">
+        <li id="item2"><a id="link2">Click Here</a></li>
+      </ul>
+    </div>
+    
+    <script src="js/event-flow.js"></script>
+  </body>
+</html>

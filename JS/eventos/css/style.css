@@ -17,6 +17,22 @@ body {
     border-radius: 5px;
 }
 
+.page {
+    margin: 10px;
+    background-color: seagreen;
+    margin-right: 10px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+
+#item, #item2 {
+    background-color: pink;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
 p {
     color: #fff;
     font-weight: 400;
@@ -57,4 +73,6 @@ input[type='text'] {
 .divider {
     margin-left: 5px;
 }
+
+
 
