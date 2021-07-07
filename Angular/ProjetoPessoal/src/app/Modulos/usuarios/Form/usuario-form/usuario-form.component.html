@@ -1,0 +1,55 @@
+<button mat-icon-button (click)="dialogRef.close('any')" > <mat-icon>Close</mat-icon> </button>
+
+<form class="form-group text-center" [formGroup]="form">     
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>Nome</mat-label>
+            <input type="text" formControlName="nome" matInput>
+          </mat-form-field> 
+        
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>Senha</mat-label>
+            <input type="password" formControlName="senha" matInput>
+          </mat-form-field>
+      
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>Telefone</mat-label>
+            <input formControlName="telefone" matInput>
+          </mat-form-field>
+      
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>E-mail</mat-label>
+            <input type="email" formControlName="email" matInput>
+          </mat-form-field>
+        </div>
+  
+        <div class="col-md-6">
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>Apartamento</mat-label>
+            <input type="number" formControlName="apto" matInput>
+          </mat-form-field>
+        
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>Nascimento</mat-label>
+            <input type="date" formControlName="nascimento" matInput>
+          </mat-form-field>
+        
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>CEP</mat-label>
+            <input type="number" formControlName="cep" matInput>
+          </mat-form-field>
+        
+          <mat-form-field class="form-control" appearance="fill">
+            <mat-label>Complemento</mat-label>
+            <input type="text" formControlName="complemento" matInput>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>   
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <!-- Botão para salvar dados no db, "addData()" -->
+      <button class="btn btn-primary mt-2 fs-4" mat-button (click)="addData()">Salvar</button>      
+    </div>
+  </form>
