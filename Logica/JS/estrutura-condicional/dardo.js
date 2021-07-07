@@ -7,7 +7,7 @@ let a, b, c, maior;
 
 a = 83.21;
 b = 87.53;
-c = 83.21
+c = 83.21;
 
 if(a > b && a > c) {
     maior = a;
