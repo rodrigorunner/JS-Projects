@@ -2,9 +2,11 @@
 // números podem ser digitados em qualquer ordem.
 
 let a, b;
-a = 24;
-b = 6;
+a = 5;
+b = 2;
 
-if(a % b == 0 || b % a == 0) {
+if(a % b == 2 || b % a == 2) {
     console.log('São multiplos');
+} else {
+    console.log('Não são múltiplos')
 }
