@@ -14,10 +14,10 @@ export class CalculadoraService {
 
   /* Constantes reponsáveis pelas operações
      aritméticas */
-  static readonly SOMA: string;
-  static readonly SUBTRACAO: string;
-  static readonly DIVISAO: string;
-  static readonly MULTIPLICACAO: string;
+  static readonly SOMA: string = '+';
+  static readonly SUBTRACAO: string = '-';
+  static readonly DIVISAO: string = '/';
+  static readonly MULTIPLICACAO: string = '*';
 
   constructor() { }
 
